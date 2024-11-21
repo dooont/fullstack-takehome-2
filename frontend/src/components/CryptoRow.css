@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet');
+
+.crypto-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding: 15px 20px;
+  border: 1px solid #333;
+  color: #fff;
+  width: 90%;
+}
+
+.crypto-item-coin {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+.crypto-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+.crypto-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.crypto-name {
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.crypto-label {
+  font-size: 12px;
+  color: #aaa;
+  margin-bottom: 4px;
+}
+
+.crypto-value {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.crypto-value.positive {
+  color: #4caf50;
+}
+
+.crypto-value.negative {
+  color: #f44336;
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  /* font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  padding: 0; */
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet');
+body {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.trading-card {
+  width: 320px;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  color: #666;
+}
+
+.tab.active {
+  color: #ff4500;
+  border-bottom: 2px solid #ff4500;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.upper-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.upper-form-item {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.form-item {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-item label {
+  display: block;
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 5px;
+}
+
+.form-item input[type="number"] {
+  width: calc(100% - 40px);
+  padding: 8px;
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 4px;
+}
+
+.form-item input[type="range"] {
+  width: 100%;
+}
+
+.form-item .value {
+  font-size: 16px;
+  color: #fff;
+}
+
+.form-item .unit {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.leverage-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #aaa;
+}
+
+.advanced {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 14px;
+  color: #666;
+}
+
+.buy-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #000;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buy-button:hover {
+  background-color: #45a049;
+}

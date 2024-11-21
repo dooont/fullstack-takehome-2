@@ -1,0 +1,60 @@
+.search-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding: 10px 20px;
+  border: 1px solid #333;
+  width: 90%;
+}
+
+.search-input-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: #111;
+  border-radius: 4px;
+  padding: 5px 10px;
+  width: 90%;
+}
+
+.search-input {
+  background: none;
+  border: none;
+  color: #fff;
+  outline: none;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.search-input::placeholder {
+  color: #666;
+}
+
+.icon {
+  color: #666;
+}
+
+.user-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 10%;
+  text-align: center;
+}
+
+.user-icon {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.dropdown-icon {
+  font-size: 12px;
+  color: #999;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet');
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+}
