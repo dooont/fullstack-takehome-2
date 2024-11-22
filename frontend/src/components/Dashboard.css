@@ -1,20 +1,20 @@
 .dashboard-container {
   display: flex;
   flex-direction: row;
-  padding: 10px 20px;
+  justify-content: space-between;
+  padding-top: 10px;
   width: 90%;
   height: 100%;
 }
 
 .graph-section {
   flex: 7; /* 70% of the container width */
-  padding: 10px;
-  border-right: 1px solid #ddd; /* Optional separator */
+  padding-right: 10px;
 }
 
 .table-section {
   flex: 3; /* 30% of the container width */
-  padding: 10px;
+  padding-left: 10px;
 }
 
 .graph-placeholder,
@@ -34,9 +34,4 @@
 
 body {
   font-family: 'IBM Plex Mono', monospace;
-  /* font-size: 16px;
-  line-height: 1.5;
-  color: #333;
-  margin: 0;
-  padding: 0; */
 }

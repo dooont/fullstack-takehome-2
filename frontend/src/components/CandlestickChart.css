@@ -1,0 +1,9 @@
+#chart {
+  max-width: 800px;
+  margin: auto;
+}
+
+.apexcharts-toolbar {
+  background-color: #000;
+  color: #fff;
+}

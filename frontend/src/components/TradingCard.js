@@ -25,17 +25,18 @@ const TradingCard = () => {
       {/* Form Section */}
       <div className="form">
         <div className="upper-section">
-          <div className="upper-form-item">
-            <label>Order Type</label>
+          <div className="upper-form-item seven">
+            <label className="order-type">Order Type</label>
             <select>
-              <option value="MARKET">MARKET</option>
-              <option value="LIMIT">LIMIT</option>
+              <option value="MARKET" className="market">MARKET</option>
+              <option value="LIMIT" className="limit">LIMIT</option>
             </select>
           </div>
 
-          <div className="upper-form-item">
-            <label>Open Price</label>
-            <span className="value">$30,021.29 USDC</span>
+          <div className="upper-form-item three">
+            <label className="order-type">Open Price</label>
+            <span className="value order-type">$30,021.29</span>
+            <span className="value order-type">USDC</span>
           </div>
         </div>
         <div className="upper-form-item">

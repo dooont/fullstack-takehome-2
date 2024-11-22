@@ -10,7 +10,7 @@ const CryptoRow = () => {
       </div>
       <div className="crypto-item">
         <span className="crypto-label">Price</span>
-        <span className="crypto-value positive">$31,119.01</span>
+        <span className="crypto-value">$31,119.01</span>
       </div>
       <div className="crypto-item">
         <span className="crypto-label">24H Change</span>
