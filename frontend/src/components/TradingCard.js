@@ -21,8 +21,6 @@ const TradingCard = () => {
           SHORT
         </div>
       </div>
-
-      {/* Form Section */}
       <div className="form">
         <div className="upper-section">
           <div className="upper-form-item seven">
@@ -41,13 +39,24 @@ const TradingCard = () => {
         </div>
         <div className="upper-form-item">
           <label>Size</label>
-          <input type="number" placeholder="0." />
-          <span className="unit">USDC</span>
+          <div>
+            <input type="number" placeholder="0." />
+            <span className="unit">USDC</span>
+          </div>
         </div>
 
         <div className="form-item">
           <label>Leverage</label>
-          <input type="range" min="2" max="128" step="1" />
+          <input type="range" min="2" max="128" step="1" list="leverage-stops" />
+          <datalist id="leverage-stops">
+            <option value="2" />
+            <option value="5" />
+            <option value="10" />
+            <option value="25" />
+            <option value="50" />
+            <option value="100" />
+            <option value="128" />
+          </datalist>
           <div className="leverage-labels">
             <span>2x</span>
             <span>128x</span>

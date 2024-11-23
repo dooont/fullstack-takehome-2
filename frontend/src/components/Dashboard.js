@@ -10,8 +10,6 @@ const Dashboard = () => {
       <div className="graph-section">
         <CandlestickChart />
       </div>
-
-      {/* Section for the table */}
       <div className="table-section">
         <TradingCard />
       </div>

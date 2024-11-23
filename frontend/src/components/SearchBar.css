@@ -4,14 +4,14 @@
   align-items: center;
   background-color: #000;
   padding: 10px 20px;
-  border: 1px solid #333;
+  /* border: 1px solid #333; */
   width: 90%;
 }
 
 .search-input-wrapper {
   display: flex;
   align-items: center;
-  background-color: #111;
+  background-color: #111; 
   border-radius: 4px;
   padding: 5px 10px;
   width: 90%;

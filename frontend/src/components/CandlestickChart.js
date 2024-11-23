@@ -55,7 +55,7 @@ const CandlestickChart = () => {
           marker: {
             size: 8,
             fillColor: "#fff",
-            strokeColor: "#00E396",
+            strokeColor: "#4BC2A3",
             shape: "circle",
           },
           label: {
